@@ -31,7 +31,7 @@ export default class MainHeader extends Component {
                             <QuestionCircleOutlined style={{ fontSize: '21px' }} />
                         </div>
                         <div className="header__comp--noti">
-                            <Badge placement='start' size="small" count={5} style={{ backgroundColor: '#f68f39' }} >
+                            <Badge placement='start' size="small" count={5} style={{ backgroundColor: '#22a565' }} >
                                 <img src={notificationsIcon} alt='notifications' />
                             </Badge>
                         </div>

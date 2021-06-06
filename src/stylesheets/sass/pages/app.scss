@@ -645,3 +645,24 @@ video {
 		display: none;
 	}
 }
+
+.ant-layout-sider-collapsed {
+	.logo {
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item,
+.ant-menu-inline-collapsed
+	> .ant-menu-item-group
+	> .ant-menu-item-group-list
+	> .ant-menu-submenu
+	> .ant-menu-submenu-title,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+	left: 0;
+	padding: 0 12px;
+	text-overflow: clip;
+}
